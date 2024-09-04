@@ -12,6 +12,7 @@ opt.addEventListener("click",()=>{
     let img=document.createElement("img");
     para.className="input-box";
     para.setAttribute("contenteditable","true");
+    para.spellcheck=false;
     img.className="delete";
     img.src="delete.png";
     container.appendChild(para).appendChild(img);
